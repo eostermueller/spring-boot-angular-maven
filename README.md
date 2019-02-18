@@ -10,6 +10,7 @@ Start here.
 * Frontend (Angular) and Backend (Spring Boot) code is separated into folders named ```frontend``` and ```backend```.
 * Includes .gitignore that keeps node_modules and other boilerplate stuff from showing up in git.
 * Client-side testing isn't enabled.
+* Thanks t0 [this githubber](https://github.com/swathisprasad). This code started as a fork of [this project](https://github.com/swathisprasad/spring-boot-angular6-maven-project)....but I've since cut the ties.
 
 # Step 01: Install npm and Angular 7 CLI
 
@@ -105,4 +106,4 @@ webpack                             4.29.4
 
 ```
 
-This code started as a fork of [this project](https://github.com/swathisprasad/spring-boot-angular6-maven-project)....but I've since cut the ties.
+
