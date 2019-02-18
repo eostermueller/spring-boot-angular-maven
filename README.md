@@ -3,6 +3,13 @@
 Wanna run Angular 7 under Spring Boot?  With a "java -jar" deployment?
 Start here.
 
+# Features
+* Spring Security enabed by default.
+* Includes Maven wrapper (mvnw and mvnw.cmd) that will auto-install Maven for you.
+* Frontend (Angular) and Backend (Spring Boot) code is separated into folders named ```frontend``` and ```backend```.
+* Includes .gitignore that keeps node_modules and other boilerplate stuff from showing up in git.
+* Client-side testing isn't enabled.
+
 # Step 01: Install npm and Angular 7 CLI
 
 Make sure npm and the Angular 7 CLI are installed.
