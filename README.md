@@ -25,13 +25,25 @@ or this:
 
 ```java -jar target/backend-0.0.1-SNAPSHOT.jar```
 
+# Install 
+
+Make sure npm and the Angular 7 CLI are installed.
+Follow everything up to and including "Step 1" in the [Angular Quick Start](https://angular.io/guide/quickstart)
+
+
 # Getting Started
 Spring Security is enable by default, so every time you stat the app you'll be presented with this:
+
+![Spring Security Logon](https://user-images.githubusercontent.com/175773/52928769-0bf67680-3307-11e9-86aa-9574700ddf3b.png)
+
+
 
 You can find the user/password at either [this](https://www.websparrow.org/spring/spring-security-how-to-change-default-username-and-password) [this](https://docs.spring.io/spring-boot/docs/2.0.0.RELEASE/reference/html/boot-features-security.html) or this link.
 
 
 Once you log in successfully, you'll see this:
+
+![Bare bones Angular 7](https://user-images.githubusercontent.com/175773/52928834-5b3ca700-3307-11e9-969c-529b1667e12a.png)
 
 
 # Versions
