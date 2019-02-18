@@ -5,7 +5,7 @@ Looking for a good place to start with an Angular 7 app with a Spring Boot "java
 # Step 01: Install npm and Angular 7 CLI
 
 Make sure npm and the Angular 7 CLI are installed.
-Follow everything up to and including "Step 1" in the [Angular Quick Start](https://angular.io/guide/quickstart)
+You can install these by following everything up to and including "Step 1" in the [Angular Quick Start](https://angular.io/guide/quickstart)
 
 
 # Step 02: Build and Launch
