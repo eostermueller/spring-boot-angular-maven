@@ -25,3 +25,12 @@ Then to run:
 or this:
 
 ```java -jar target/backend-0.0.1-SNAPSHOT.jar```
+
+# Getting Started
+Spring Security is enable by default, so every time you stat the app you'll be presented with this:
+
+You can find the user/password at either [this](https://www.websparrow.org/spring/spring-security-how-to-change-default-username-and-password) [this](https://docs.spring.io/spring-boot/docs/2.0.0.RELEASE/reference/html/boot-features-security.html) or this link.
+
+
+
+
