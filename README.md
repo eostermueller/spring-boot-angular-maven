@@ -1,10 +1,14 @@
 # spring-boot-angular7-maven
 
-This code started as a fork of [](https://github.com/swathisprasad/spring-boot-angular6-maven-project) ..but I've since cut the ties.
-
 Looking for a good place to start with an Angular 7 app with a Spring Boot "java -jar" deployment?  This is it.
 
-# Getting Started
+# Step 01: Install npm and Angular 7 CLI
+
+Make sure npm and the Angular 7 CLI are installed.
+Follow everything up to and including "Step 1" in the [Angular Quick Start](https://angular.io/guide/quickstart)
+
+
+# Step 02: Build and Launch
 Build the pr0ject like this:
 
 ```./mvnw clean install```
@@ -24,11 +28,6 @@ Then to run:
 or this:
 
 ```java -jar target/backend-0.0.1-SNAPSHOT.jar```
-
-# Install 
-
-Make sure npm and the Angular 7 CLI are installed.
-Follow everything up to and including "Step 1" in the [Angular Quick Start](https://angular.io/guide/quickstart)
 
 
 # Getting Started
@@ -94,3 +93,5 @@ typescript                          3.3.3
 webpack                             4.29.4
 
 ```
+
+This code started as a fork of [this project](https://github.com/swathisprasad/spring-boot-angular6-maven-project)....but I've since cut the ties.
