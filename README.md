@@ -5,6 +5,7 @@ Start here.
 
 # Features
 * Spring Security enabed by default.
+* running ```java -jar backend/target/backend-0.0.1-SNAPSHOT.jar``` launches both Angular 7 and Spring Boot under Tomcat 9.0.16 on port 8090.
 * Includes Maven wrapper (mvnw and mvnw.cmd) that will auto-install Maven for you.
 * Frontend (Angular) and Backend (Spring Boot) code is separated into folders named ```frontend``` and ```backend```.
 * Includes .gitignore that keeps node_modules and other boilerplate stuff from showing up in git.
