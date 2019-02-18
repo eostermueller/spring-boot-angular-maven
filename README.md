@@ -24,4 +24,4 @@ Then to run:
 
 or this:
 
-```java -jar backend-0.0.1-SNAPSHOT.jar```
+```java -jar target/backend-0.0.1-SNAPSHOT.jar```
