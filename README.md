@@ -43,13 +43,13 @@ or this:
 
 # Getting Started
 Once you get the ```Completed initialization in N ms``` message, navigate to ```localhost:8090``` in your browser.
-Spring Security is enable by default, so every time you stat the app you'll be presented with this:
+Spring Security is enable by default, so every time you stat the app you'll be presented with screenshot below.  The user is just "user" and the pw is in the stdout log.  For mor details, check [here](https://www.websparrow.org/spring/spring-security-how-to-change-default-username-and-password) or [here](https://docs.spring.io/spring-boot/docs/2.0.0.RELEASE/reference/html/boot-features-security.html).
+
 
 ![Spring Security Logon](https://user-images.githubusercontent.com/175773/52928769-0bf67680-3307-11e9-86aa-9574700ddf3b.png)
 
 
 
-You can find the user/password at either [this](https://www.websparrow.org/spring/spring-security-how-to-change-default-username-and-password) [this](https://docs.spring.io/spring-boot/docs/2.0.0.RELEASE/reference/html/boot-features-security.html) or this link.
 
 Once you log in successfully, you'll see this:
 
