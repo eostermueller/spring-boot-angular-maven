@@ -1,6 +1,7 @@
 # spring-boot-angular7-maven
 
-Looking for a good place to start with an Angular 7 app with a Spring Boot "java -jar" deployment?  This is it.
+Wanna run Angular 7 under Spring Boot?  With a "java -jar" deployment?
+Start here.
 
 # Step 01: Install npm and Angular 7 CLI
 
@@ -9,7 +10,8 @@ You can install these by following everything up to and including "Step 1" in th
 
 
 # Step 02: Build and Launch
-Build the pr0ject like this:
+
+After you download/clone this repo, build the project like this:
 
 ```./mvnw clean install```
 
