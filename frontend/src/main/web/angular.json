@@ -123,5 +123,10 @@
       }
     }
   },
-  "defaultProject": "np-app"
+  "defaultProject": "np-app",
+  "cli": {
+    "warnings": {
+      "typescriptMismatch": true
+    }
+  }
 }
