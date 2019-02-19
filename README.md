@@ -56,6 +56,19 @@ Once you log in successfully, you'll see this:
 ![Bare bones Angular 7](https://user-images.githubusercontent.com/175773/52928834-5b3ca700-3307-11e9-969c-529b1667e12a.png)
 
 
+# Next Steps:  Angular Material
+With this code as a base, if you follow [these instructions](https://robferguson.org/blog/2018/11/05/getting-started-with-angular-material/), you can easily add side navigation, like this:
+
+![Angular Material Side Nav](https://user-images.githubusercontent.com/175773/52995305-d5d8f580-33df-11e9-8856-fb5bea122854.png)
+
+...but I didn't follow those instructions exactly.
+Here are the variations:
+
+1. Skip this if you've already done it: ```npm install -g @angular/cli```
+1. Skip this b/c it's already a part 0f this rep0:  ```ng new serendipity```
+1. Because we skipped the "ng new" step above, we missed the chance to choose scss over css.  So, Find angular.json and make sure the 'schematics' attribute looks like this: ```"schematics": { "@schematics/angular:component": { "styleext": "scss" } },```
+1. Add ```<app-nav></app-nav>``` to the very top of your app.component.html.
+1. Done!  Re-run your ```./mvnw clean install``` and ```../mvnw spring-boot:run``` 
 # Versions
 Versions I used:
 ```
