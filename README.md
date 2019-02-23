@@ -57,6 +57,9 @@ Once you log in successfully, you'll see this:
 
 
 # Next Steps:  Angular Material
+
+All Angular CLI commands should be run from this folder:  ```frontend/src/main/web```
+
 With this code as a base, if you follow [these instructions](https://robferguson.org/blog/2018/11/05/getting-started-with-angular-material/), you can easily add side navigation, like this:
 
 ![Angular Material Side Nav](https://user-images.githubusercontent.com/175773/52995305-d5d8f580-33df-11e9-8856-fb5bea122854.png)
