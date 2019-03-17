@@ -43,7 +43,14 @@ or this:
 
 # Getting Started
 Once you get the ```Completed initialization in N ms``` message, navigate to ```localhost:8090``` in your browser.
-Spring Security is enable by default, so every time you stat the app you'll be presented with screenshot below.  The user is just "user" and the pw is in the stdout log.  For mor details, check [here](https://www.websparrow.org/spring/spring-security-how-to-change-default-username-and-password) or [here](https://docs.spring.io/spring-boot/docs/2.0.0.RELEASE/reference/html/boot-features-security.html).
+Spring Security is enable by default, so every time you stat the app you'll be presented with screenshot below.  The user is just "user" and the pw is in the stdout log.  
+
+The password for 'User' will be displayed in the stdout like this:
+```
+Using generated security password: 6ba401cd-01cb-4e44-bf16-3892bfc90115
+```
+
+For mor details, check [here](https://www.websparrow.org/spring/spring-security-how-to-change-default-username-and-password) or [here](https://docs.spring.io/spring-boot/docs/2.0.0.RELEASE/reference/html/boot-features-security.html).
 
 
 ![Spring Security Logon](https://user-images.githubusercontent.com/175773/52928769-0bf67680-3307-11e9-86aa-9574700ddf3b.png)
@@ -54,6 +61,46 @@ Spring Security is enable by default, so every time you stat the app you'll be p
 Once you log in successfully, you'll see this:
 
 ![Bare bones Angular 7](https://user-images.githubusercontent.com/175773/52928834-5b3ca700-3307-11e9-969c-529b1667e12a.png)
+
+# Run ANY Angular Project Under Spring Boot
+Want to run your favorite Angular project under Spring Boot, to get great ootb security?
+This should take no more than 5 minutes.
+1. Clone this project
+1. Delete all files/childfolders in this project's frontend/src/main/web.  
+1. Copy all files/childfolders in the root (folder with package.json) of your Angular project into that same location (frontend/src/main/web).  When finished, your angular project's package.json should be here:  ```frontend/src/main/web/package.json```.
+1. Tell the backend build where to find the angular application. Specifically, configure the ```<resource>``` in ```backend/pom.xml``` to be the ```"outputPath"``` in your ```frontend/src/main/web/angular.json```, as shown below.
+```frontend/src/main/web/angular.json```
+```
+"architect": {
+ "build": {
+   "builder": "@angular-devkit/build-angular:browser",
+   "options": {
+   "outputPath": "dist/demo-app",
+```
+
+```backend/pom.xml```
+```
+<execution>
+  <id>copy-resources</id>
+  <phase>validate</phase>
+  <goals>
+    <goal>copy-resources</goal>
+  </goals>
+  <configuration>
+    <outputDirectory>
+    ${project.build.directory}/classes/resources/</outputDirectory>
+    <resources>
+      <resource>
+        <directory>
+        ${project.parent.basedir}/frontend/src/main/web/dist/demo-app/</directory>
+      </resource>
+    </resources>
+  </configuration>
+</execution>
+
+```
+1. Run steps in "Step 02: Build and Launch"
+1. Done!
 
 
 # Next Steps:  Angular Material
