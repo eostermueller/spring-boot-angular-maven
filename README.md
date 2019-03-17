@@ -62,7 +62,7 @@ Once you log in successfully, you'll see this:
 
 ![Bare bones Angular](https://user-images.githubusercontent.com/175773/52928834-5b3ca700-3307-11e9-969c-529b1667e12a.png)
 
-# Run ANY Angular Project Under Spring Boot
+# Run ANY Angular App In Spring Boot / in under 5 minutes
 Want to run your favorite Angular project under Spring Boot, to get great ootb security?
 This should take no more than 5 minutes.
 1. Clone this project
