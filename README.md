@@ -1,7 +1,6 @@
-# spring-boot-angular7-maven
+# spring-boot-angular-maven
 
-Wanna run Angular 7 under Spring Boot?  With a "java -jar" deployment?
-Start here.
+Run Angular under Spring Boot, with "java -jar" deployment.
 
 # Features
 * Spring Security enabed by default.
