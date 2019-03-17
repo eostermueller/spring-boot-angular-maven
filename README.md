@@ -120,3 +120,6 @@ Here are the variations:
 1. Because we skipped the "ng new" step above, we missed the chance to choose scss over css.  So, Find angular.json and make sure the 'schematics' attribute looks like this: ```"schematics": { "@schematics/angular:component": { "styleext": "scss" } },```
 1. Add ```<app-nav></app-nav>``` to the very top of your app.component.html.
 1. Done!  Re-run your ```./mvnw clean install``` and ```../mvnw spring-boot:run``` 
+
+# Angular Versions
+Angular versions of the hello-world angular app are [here](https://github.com/eostermueller/spring-boot-angular-maven/blob/master/frontend/src/main/web/package.json).
