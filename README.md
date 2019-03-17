@@ -68,7 +68,7 @@ This should take no more than 5 minutes.
 1. Clone this project
 1. Delete all files/childfolders in this project's frontend/src/main/web.  
 1. Copy all files/childfolders in the root (folder with package.json) of your Angular project into that same location (frontend/src/main/web).  When finished, your angular project's package.json should be here:  ```frontend/src/main/web/package.json```.
-1. Tell the backend build where to find the angular application. Specifically, configure the ```<resource>``` in ```backend/pom.xml``` to be the ```"outputPath"``` in your ```frontend/src/main/web/angular.json```, as shown below.
+1. Tell the backend build where to find the angular application. Specifically, configure the ```<resource>``` element in ```backend/pom.xml``` to be the ```"outputPath"``` in your ```frontend/src/main/web/angular.json```, as shown below.  Note that ```dist/demo-app``` in angular.json is a path relative to ```web``` folder, and the text in the ```<resource>``` element in ```backend/pom.json``` is a full path, starting with ```${project.parent.basedir}```
 
 ```frontend/src/main/web/angular.json```
 ```
