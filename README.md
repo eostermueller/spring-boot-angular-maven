@@ -1,19 +1,20 @@
 # spring-boot-angular-maven
 
 Run Angular under Spring Boot, with "java -jar" deployment.
+Comes with Angular 8 hello world app.
 
 # Features
 * Spring Security enabed by default.
-* running ```java -jar backend/target/backend-0.0.1-SNAPSHOT.jar``` launches both Angular 7 and Spring Boot under Tomcat 9.0.16 on port 8090.
+* running ```java -jar backend/target/backend-0.0.1-SNAPSHOT.jar``` launches both Angular and Spring Boot under Tomcat 9.0.16 on port 8090.
 * Includes Maven wrapper (mvnw and mvnw.cmd) that will auto-install Maven for you.
 * Frontend (Angular) and Backend (Spring Boot) code is separated into folders named ```frontend``` and ```backend```.
 * Includes .gitignore that keeps node_modules and other boilerplate stuff from showing up in git.
 * Client-side testing isn't enabled.
 * Thanks to [this githubber](https://github.com/swathisprasad). This code started as a fork of [this project](https://github.com/swathisprasad/spring-boot-angular6-maven-project)....but I've since cut the ties.
 
-# Step 01: Install npm and Angular 7 CLI
+# Step 01: Install npm and Angular CLI
 
-Make sure npm and the Angular 7 CLI are installed.
+Make sure npm and the Angular CLI are installed.
 You can install these by following everything up to and including "Step 1" in the [Angular Quick Start](https://angular.io/guide/quickstart)
 
 
@@ -59,7 +60,7 @@ For mor details, check [here](https://www.websparrow.org/spring/spring-security-
 
 Once you log in successfully, you'll see this:
 
-![Bare bones Angular 7](https://user-images.githubusercontent.com/175773/52928834-5b3ca700-3307-11e9-969c-529b1667e12a.png)
+![Bare bones Angular](https://user-images.githubusercontent.com/175773/52928834-5b3ca700-3307-11e9-969c-529b1667e12a.png)
 
 # Run ANY Angular Project Under Spring Boot
 Want to run your favorite Angular project under Spring Boot, to get great ootb security?
