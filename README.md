@@ -41,7 +41,7 @@ or this:
 ```java -jar target/backend-0.0.1-SNAPSHOT.jar```
 
 
-# Step 03: Logging On
+# Step 03: Logging On / Spring Security
 Once you get the ```Completed initialization in N ms``` message, navigate to ```localhost:8090``` in your browser.
 Spring Security is enable by default, so every time you stat the app you'll be presented with screenshot below.  The user is just "user" and the pw is in the stdout log.  
 
