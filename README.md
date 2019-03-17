@@ -45,7 +45,7 @@ or this:
 Once you get the ```Completed initialization in N ms``` message, navigate to ```localhost:8090``` in your browser.
 Spring Security is enable by default, so every time you stat the app you'll be presented with screenshot below.  The user is just "user" and the pw is in the stdout log.  
 
-The password for 'User' will be displayed in the stdout like this:
+The password for 'user' will be displayed in the stdout like this:
 ```
 Using generated security password: 6ba401cd-01cb-4e44-bf16-3892bfc90115
 ```
